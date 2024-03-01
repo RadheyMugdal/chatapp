@@ -8,7 +8,7 @@ export default defineConfig({
 		
 		proxy: {
 			"/api": {
-				target: "https://mernchatappbyradhey.onrender.com/",
+				target: "http/localhost:5000",
 			},
 		},
 	},
